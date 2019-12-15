@@ -23,7 +23,7 @@ with anki_vector.Robot() as robot:
     time.sleep(.1)
     with anki_vector.Robot(args.serial) as robot:
         print("take it back now y'all")
-        robot.behavior.say_text("take it back now y'all")
+        robot.behavior.say_text("take it back now y'all, chah chah real smooth")
     robot.motors.set_wheel_motor(100,100)
     time.sleep(.1)
 
